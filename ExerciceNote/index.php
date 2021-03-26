@@ -24,7 +24,7 @@
 <?php 
     foreach ($animaux as $key => $value) { ?>
 <li>
-    <p> <?= $value->name ?>
+    <p> <?= $value->name ?> est un chien de race 
         <?= $value->type ?>
     <p> 
  </li>
